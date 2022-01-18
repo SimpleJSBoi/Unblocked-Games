@@ -1,0 +1,20 @@
+<html>
+<link rel="shortcut icon" href="https://lh3.googleusercontent.com/sBPr2AfSRVmmWJKDutjw-7l74joOvghwAzFf-W4vSAmzU7zGPvjXMzaEPwQNqzEC2w">
+<title>Baldi's Basics</title>
+<header>
+
+<link rel="shortcut icon" href="https://lh3.googleusercontent.com/sBPr2AfSRVmmWJKDutjw-7l74joOvghwAzFf-W4vSAmzU7zGPvjXMzaEPwQNqzEC2w">
+<link rel="stylesheet" href="https://rawcdn.githack.com/SHSGames/shsgames.github.io/master/web/built-games/baldis-basics/TemplateData/style.css">
+    <script src="https://rawcdn.githack.com/SHSGames/shsgames.github.io/master/web/built-games/baldis-basics/TemplateData/UnityProgress.js"></script>
+	<script src="https://rawcdn.githack.com/SHSGames/shsgames.github.io/master/web/built-games/baldis-basics/baldi.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "https://rawcdn.githack.com/SHSGames/shsgames.github.io/master/web/built-games/baldis-basics/baldi.json", {onProgress: UnityProgress,Module:{onRuntimeInitialized: function() {UnityProgress(gameInstance, "complete")}}});
+    </script>
+</header>
+<body style="margin: 0;">
+<div class="webgl-content">
+        <div id="gameContainer" style="width: 800px; height: 560px; margin: auto"></div>
+        </div>
+  <script src="https://rawcdn.githack.com/SHSGames/shsgames.github.io/master/web/built-games/baldis-basics/firebase-app.js"></script>
+</body>
+</html>
